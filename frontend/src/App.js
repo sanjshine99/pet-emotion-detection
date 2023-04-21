@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <h1>Pet Emotion Detection</h1>
       <EmotionDetectionForm
         onEmotionDetection={handleEmotionDetection}
@@ -59,6 +59,7 @@ function App() {
       <button
         onClick={handleImageGeneration}
         disabled={!generatedImageUrl || loading}
+        className="button"
       >
         Generate Image
       </button>

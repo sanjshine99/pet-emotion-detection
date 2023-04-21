@@ -1,10 +1,10 @@
 import React from "react";
 
-const GeneratedImage = ({ image }) => {
+const GeneratedImage = ({ imageUrl }) => {
   return (
     <div>
       <h3>Generated Image</h3>
-      {image && <img src={image} alt="Generated" />}
+      {imageUrl && <img src={imageUrl} alt="Generated" />}
     </div>
   );
 };
