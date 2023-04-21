@@ -30,7 +30,7 @@ const EmotionDetectionForm = () => {
 
   return (
     <div>
-      <form onSubmit={handleFormSubmit}>
+      <form onSubmit={handleFormSubmit} className="form-container">
         <div>
           <label htmlFor="image">Choose an image:</label>
           <input
